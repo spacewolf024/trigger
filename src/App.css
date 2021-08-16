@@ -1,0 +1,36 @@
+button {
+  border: 1px solid black;
+  padding: 20px 10px;
+  pointer: cursor;
+}
+
+.hovered {
+  border: 1px solid red;
+}
+
+.medium-image {
+  height: 100px;
+  width: 100px;
+}
+
+.button-image {
+  height: 100px;
+  width: 50;
+}
+.flyout {
+  height: 200px;
+  width: 100px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
